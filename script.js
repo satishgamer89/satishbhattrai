@@ -13,7 +13,6 @@ const sr = ScrollReveal ({
 });
 
 sr.reveal('.logo',{delay:200, origin:'left'})
-sr.reveal('.navbar',{delay:400, origin:'top'})
 sr.reveal('.menu-btn',{delay:520, origin:'right'})
 
 sr.reveal('.home-text span',{delay:600, origin:'top'})
