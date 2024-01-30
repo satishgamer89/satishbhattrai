@@ -169,7 +169,7 @@ section{
     border:2px solid var(--text-color);
 }
 
-.share{
+.sharee{
     position: absolute;
     bottom: 3rem;
     left:15%;
@@ -177,7 +177,7 @@ section{
     align-items: center;
 }
 
-.share p{
+.sharee p{
     font-size:17px;
     color: var(--text-color);
     margin-right: 25px;
@@ -212,7 +212,7 @@ section{
         padding: 0 8%;
         transition: .2s;
     }
-    .share{
+    .sharee{
         left:8%;
         transition: .2s;
     }
@@ -227,7 +227,7 @@ section{
         padding: 0 4%;
         transition: .2s;
     }
-    .share{
+    .sharee{
         left:4%;
         transition: .2s;
     }
@@ -250,11 +250,13 @@ section{
 }
 
 @media (max-width: 950px){
-    .share{
-        display: none;
-    }
     section{
         padding: 70px 4%;
+    }
+    .sharee{
+        display: flex;
+        position: relative;
+        top: 2rem;
     }
     header{
         padding: 11px 4%;

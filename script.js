@@ -20,6 +20,5 @@ sr.reveal('.home-text h1',{delay:680, origin:'left'})
 sr.reveal('.home-text p',{delay:750, origin:'right'})
 sr.reveal('.main-btn',{delay:860, origin:'left'})
 
-sr.reveal('.share',{delay:950, origin:'bottom'})
-
+sr.reveal('.social',{delay:950, origin:'bottom'})
 sr.reveal('.home-img',{delay:1000, origin:'right'})
